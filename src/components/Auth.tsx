@@ -283,6 +283,9 @@ const Auth = () => {
               SignIn with Google
             </Button>
           </form>
+          <div>
+            <p>test</p>
+          </div>
           <Modal open={openModal} onClose={() => setOpenModal(false)}>
             <div style={getModalStyle()} className={classes.modal}>
               <div className={styles.login_modal}>
